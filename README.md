@@ -1,6 +1,6 @@
 # LSER-HPLC-Predictor
 
-This project is a reproduction of research into **Linear Solvation Energy Relationships (LSER)**. The goal is to predict how chemicals behave in an HPLC column based purely on their molecular structure.
+This project is a reproduction of research into **Linear Solvation Energy Relationships (LSER)** by Marchetto *et al*. The goal is to predict how chemicals behave in an HPLC column based purely on their molecular structure.
 
 By using the **Abraham Solvation Parameter Model**, this tool estimates molecular descriptors (*E,S,A,B,V*) and translates them into real-world retention times for chromatography.
 ## 🧪 Project Goals
@@ -22,3 +22,9 @@ This repository is currently a work in progress. I am currently:
 ## 🚀 How it Works (Quick View)
 
 The software takes a **SMILES** string, runs it through a trained pipeline, and outputs a predicted Retention Time (tR​).
+
+## References
+
+This project reproduces the machine learning workflow for HPLC method development as described in:
+> **Marchetto, A., et al.** (2025). *Analytical Chemistry*, 97(13). 
+> DOI: [10.1021/acs.analchem.4c03466](https://doi.org/10.1021/acs.analchem.4c03466)
